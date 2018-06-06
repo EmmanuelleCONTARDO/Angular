@@ -1,0 +1,7 @@
+<h2>Body</h2>
+<ul *ngIf="menuService.selectedMenu!== undefined">
+    <ol>{{menuService.selectedMenu.name}}</ol>
+    <ol>{{menuService.selectedMenu.description}}</ol>
+  <!-- <h1>{{menuService.selectedMenu.XXXX}}</h1>
+    <img [src] = "menuService.selectedMenu.image" alt=""> -->
+<ul>

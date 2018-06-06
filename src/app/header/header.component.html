@@ -1,0 +1,7 @@
+<h2>Menu</h2>
+<ol>
+  <li *ngFor = "let m of menu">
+    <a [style.color] ="menuService.selectedMenu== m ? 'red' : 'blue'" (click)="selectMenu(m, $event)" href="#" > {{m.name}} </a>
+ 
+  </li>
+</ol>
